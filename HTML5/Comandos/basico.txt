@@ -1,0 +1,40 @@
+<p>      inserir paragrafo
+<h1>     titulo
+<a>      inserir um link
+<br>     quebrar linha
+<img>    inserir imagem 
+<audio>  colocar audios, voce tambem consegue colocar varios soucers dentro para ter 
+         varios tipos de arquivos, indicados para diferentes tipos de navegadores
+<video>  colocar videos, voce tambem consegue colocar varios soucers dentro para ter 
+         varios tipos de arquivos indicados para diferentes tipos de navegadores
+<div>    cria um espaço paço para você colocar oque quiser, e você consegue auterar ele normalmente
+
+==========================================================================================================================================
+COMANDOS DENTRO DOS <>
+
+src=""               para usar referencias que esta localizada em seu dispositivo
+                     nome da pasta/nome do arquivo, para pegar um arquivo que esta
+                     localizado em outra pasta./nome do arquivo, para localizar um 
+                     arquivo na propria pasta, ../ para localizar um arquivoem uma
+                     pasta anterior
+
+loop                 quano a midia chegar aoo fim irá recomeçar
+autoplay             para ser inicializado assim que entrar no site 
+controls             para aparecer os controles de comando da midia
+href=""              para usar referencias de sites externos
+target="_blank"      para quando for entrar em um link abra outra guia
+target="_self"       para abrir o link de redirecionamento na propria guia
+type=""              você tera que colocar o arquivo que ira colocar e sua extenção
+                     ex: audio/mpeg , imagem/png
+poster=""            coloca uma imagem para ser a tumb do seu video
+width=""             para definir a largura do seu arquivo(ele ja redefine a sua altura tbm)
+height=""            para definir a altura do seu arquivo
+id=""		     para o seu comando ter um id para quando você quiser alteralo especificamente
+==========================================================================================================================================
+Formatos de midias
+
+imagem: png(png), jpeg(jpeg)
+
+audio: mp3(mpeg), ogg(ogg), wav(wav)
+
+videos: mp4(mp4), m4v(mp4), webm(webm), ogv(ogg)

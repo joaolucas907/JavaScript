@@ -1,0 +1,31 @@
+FONTES
+
+fontes serifadas são quando tem serifas, que sao as apoios/pesinho/ traço na base
+fontes sans-serif so quando a ausencia de serifas
+(textos longos em sites sao recomendados fontes sans-serif, ja em papel é recomendado serifadas)
+fontes monoespaçadas é quando todas as letras tem o mesmo espaçamento entre elas
+fontes handwriting são as fontes que tentam imitar a caligrafia feita a mao em fontes
+fontes display são as fontes que nao a caracteristicas das de cimas, e ela é feita para ser
+algo mais infeitado, fontes que servem para se referenciar a algo
+
+======================================================================================================
+MEDIDAS
+
+medidas absolutas são
+cm: centimentros        mn: milimetros        in: polegadas(2,54cm)
+px: pixels              pt: ponto             pc: paica
+
+cm e mn pode ocorrer erros na medição deles pois sistemas de tamanhos diferentes(tv,nootbook,celular)
+iram definir isso de maneiras diferentes. px sofre um pouco desse mesmo problema pois telas de alta
+resolução pode usar pxs de 4 componentes(um quarto do pixel). pt e pc são medidas de tipografia
+(usadas em papel) sendo assim não é recomendado usar em material que é impresso em tela
+
+medidas relativas
+em:   medida relativa ao tamanho atual da fonte, sendo usado o M como base
+ex:   medida relativa ao tamanho atual da fonte, sendo usado o X como base
+rem:  igual o "em" sendo que referente a fonte configurada no body
+vw:   é referente ao tamanho da sua tela em largura
+vh:   é referente ao tamanho da sua tela em altura
+%¨:   utiliza diretamente a porcentagem 
+
+os mais recomendados entre eles são "PX" e "EM"

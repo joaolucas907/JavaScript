@@ -1,0 +1,11 @@
+SCRIPT
+document.write: para escrever algo na tela
+
+function ação(){ }: Para ativar a funçao chamada pela variavel
+
+document.getElementebyid('id') {só chama variavel com id ja definido} ou
+document.querySelector('metodo'):
+Para chamar o comando pelo id, e fazer alteraçoes CSS3 nele.
+você tbm pode atriuir o resultado do comando a uma variavel para utilizala 
+(a variavel é inicialmente uma string) para mexer com oque a dentro nela 
+

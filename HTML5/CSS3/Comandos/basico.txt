@@ -1,0 +1,103 @@
+CORES
+
+color:                                 muda a cor do objeto
+BACKGROUND-COLOR:		       muda a cor do fundo do objeto selecionado
+				       podem ser mudado em hexadecimal ou o nome da cor ou rgb
+
+box-shadow: 			       deixar a caixa do objeto com sombra
+horizontal, vertical, espalhamento, sombra
+
+
+================================================================================================================================================================
+FONTES
+
+text-align:""                          para definir aonde você quer centralizar a frase
+				       (center,
+text-indent:                           para fazer aquele espaço no começo dos paragrafos
+text-transform: uppercase	       deixa as palavras em capslock
+font-family:"type", "type opcinal"     muda o tipo da fonte, voce consegue colocar mais de um tipo
+                                       (sendo esse tipo a mais opcional, para ser usado quando o
+                                       sistema ano aceitar o tipo anterior) a como colocar tambem 
+                                       o estilo da fonte, para o sistema preencher automaticamente
+font-size:                             mudar o tamanho da fonte 
+font-weight:                           só funciona em alguns tipos de fonte esse comando serve 
+                                       para indicar o peso da fonta(basicamente sua espesura)
+                                       light para fonte mais magra, normal para a fonte padrão,
+                                       bold que é mais grosso e escuro e bolder mais forte ainda
+font-style:                            muda o estilo da fonte(italico, negrito)
+text-decoration:                       para colocar coisas no texto, tipo colocar underline sublinhar
+				       o texto ou textos que ja vem com fonte, colocar none e retirar
+font:/*style>weight>size>serif*/       é um comando para abreviar os anteriores, e tem que ser usado
+                                       nessa ordem, é um shorthand (uma forma de abreviar os comandos)
+
+================================================================================================================================================================
+UTEIS
+
+.  serve para se referenciar a classes ||  #  se referenciar a ID ||  :  se referenciar a pseudoclasse
+
+na pseudoclasse você configura o estado do elemento, como usando o comando
+houver:    quando passar o mouse por cima do elemento ira ocorrer o comando dado
+actived:   quando é clicado ele ira realizar o comando dado
+
+o sinal ">" pode representar que algo é filho exemplo  | div > p | para se referir apenas a um "p" da div
+ 
+border:/*tamanho>type>cor*/            para criar uma boarda no objeto referenciado
+display: inline-block                  serve para todos objetos referenciados ficarem alinhados
+display:			       meche com a fonte, ex "none" a fonte sumir e "block" aparece
+border-radius:                         para alterar a circunferencia da borda, podendo colocar 1 valor
+                                       para deixa igual todos angulos, ou 2 para alterar com um em
+                                       cima e esquerda e baixo e direita, e com a outra os outros 2 lados
+:root{}                                é o lugar no CSS aonde você cria suas variaveis, todas variaveis 
+ 				       no CSS começam com --
+*{} 				       serve para você selecionar todos os elementos do arquivo de uma vez
+
+transition-duration: sec               faz uma transição para o comando de forma fluida
+
+list-style-position: inside            serve para jogar a bolinha do ul da lista para dentro do parametro
+columns: numero                        para definir o numero de colunas que você quer que sua lista tenha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+right:				serve para movimentar a direita do objeto
+left:				serve para movimentar a esquerda do objeto
+top:				serve para movimentar o topo do objeto
+bottom:				serve para movimentar em baixo do objeto
+
+font-family:                    muda a fonte da letra
+font-size:valorPX               muda o tamanho da fonte
+    
+text-align: justify             deixa o texto organizado, com a quebra de linha automatica
+
+
+PADDING: valorPX		da um expaçamento dentro da caixa do objeito
+
+MARGIN: valorPX			da um expaçamento entra as caixas dos objetos
+
+
+
+
+
+MENU
+DISPLAY: block;
+
+UL
+LIST-STYLE:none 		some com as marcaçoes do UL
+
+
+POSITION: absolute 		deixa você movimentar a posiçao do UL para aonde você quiser
+LI
+DISPLAY: inline block;		deixa todas as listas em horizontal
+

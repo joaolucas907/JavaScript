@@ -1,0 +1,15 @@
+FUNÇÂO PARA ALTERAR O TAMANHO DA IMAGEM PARA DIFERENTES DISPOSITIVOS
+
+<picture>            Serve para você conseguir criar varios sources dentro dela
+
+<source:media:type>  No "(max-width:px)" você colocara a quantidade de pixel maxima
+que o site chegar para mudar de imagem (essa quantia de pixel voce ira saber pelo
+tamanho de pixels do seu arquivo de imagem anterior +30px), quer dizer, quando o 
+tamanho de pixels da telafor menor que o tamanho que você colocou ira carregar a 
+imagem colocada para carregar no'<source:media:type>' você tem que saber a ordem de 
+colocar o comando para aparecer as imagens se ouver mais de um '<source:media:type>' 
+no srcset="" voce ira colocar a imagem normalmente como se fosse no src=""  e 
+no type="" ira colocar imagem/tipo da imagem  
+
+pegar dados de outro site indo em compartilhar e incorporar para pegar o dados daquele outro
+servirdor, fazendo isso você nao irar gatar dados do seu servidor

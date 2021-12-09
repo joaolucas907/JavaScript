@@ -1,0 +1,3 @@
+console.log('texto'): para escrever algo console
+
+var variavel: pra criar uma variavel

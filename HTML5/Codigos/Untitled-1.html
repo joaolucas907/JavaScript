@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p#area{
+
+            background:greenyellow;
+            color:white;
+            height: 1000px;
+            width: 1000px;
+            line-height: 3000px; 
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <p id="area" >
+        interaja
+    </p>
+    <script>
+        var a=document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrou)
+        a.addEventListener('mouseout', saiu)
+        a.addEventListener('mousedown', precionou)
+        a.addEventListener('mousemove', moveu)
+
+        function moveu(){
+            a.innerText='movendo'
+            a.style.background= 'grey'
+        }
+
+        function clicar(){
+            a.innerText='clicou'
+            a.style.background= 'black'
+        }
+
+        function entrou(){
+            a.innerText='entrou'
+            a.style.background= 'red'
+        }
+        function saiu(){
+            a.innerText='saiu'
+            a.style.background='green'
+        }
+        function precionou(){
+            a.innerText='precionou'
+            a.style.background='blue'
+        }
+
+    </script>
+</body>
+</html>

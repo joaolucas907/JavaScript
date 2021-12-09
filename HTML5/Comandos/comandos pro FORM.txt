@@ -1,0 +1,57 @@
+input types:
+TEXT: para texto com 1 linha;
+
+NUMBER: para um valor numerico;				FILE: para o usuario exporta alguma imagem;
+
+RANGE: para bota um valor com uma barrinha de arraste (pode colocar tbm valor minimo com min="" e valor 
+maximo com max="" no range e no number);
+
+PASSWORD: para senha;					EMAIL: para email;
+
+RADIO: para criar varias opçoes porem só pode escolher uma(voce cria um value e nele bota qual valor 
+vai ser inserido na maquina com value="", e fora do <> coloca a frase q quer q seja apresentada ao usuario);
+
+CHECKBOX: para criar varias opçoes e o usuario pode escolher todas(voce cria um value e nele bota qual valor 
+vai ser inserido na maquina com value"", e fora do <> coloca a frase q quer q seja apresentada ao usuario);
+
+SEARCH: para a pessoa pesquisar algo nele;		URL: para colocar uma url;
+
+TEL: para o usuario colocar o telefone;			TIME: para colocar a hora;
+
+DATE: para colocar a data de algo em dd/mm/aaaa(da para usar o minimo e maximo tambem, porem o jeito é aaaa/mm/dd);
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+BUTTON: cria um bota com um texto dentro dele;
+
+SELECT: para selecionar algo;				OPTION: para fazer as opções do select
+OPTGRUP: para determinar colocar isso entre as option e criar um grupo
+
+
+TEXTAREA: campo de texto grande (e pode regular a quantidade de linhas com rows="" e de colunas com cols="");
+
+DATALIST: coloque as OPTION entre a DATALIST e dê um id a DATALISTe para adicionar um input no 
+input você declara list="" entre os aspas coloca o id de DATALIST;
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Comandos de input:
+REQUIRED: para deixar aquele campo obrigatorio de ser preenchido;
+
+MAXLENGHT="quantidade": para deixarum limite maximo de caracteres que o usuario pode digitar;
+
+AUTOCOMPLETE="on": completa o sua caixa de dialogo com opções passadas;
+
+PLACEHOLDER: digita meio claro oq é para o usuario digitar naquela caixa de dialogo;
+
+SPELLCHECK="false": para erros de ortografia passarem normalmente;
+
+
+
+
+
+
+
+
+
+
+

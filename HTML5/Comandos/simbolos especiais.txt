@@ -1,0 +1,25 @@
+&lt; menor que			&gt; maior que
+&le; menor igual		&ge; maior igual
+=========================================================================================================================
+&pound; libra
+&yen; yen
+&euro; euro
+=========================================================================================================================
+&copy; copyright
+&reg; marca registrado
+&trade; TM= trading mark
+=========================================================================================================================
+&infin; infinito
+&times; multiplicação
+&plusmn; mais ou menos
+&oplus; soma na circuferencia
+&radic; radiciação
+&ne; diferente
+==========================================================================================================================
+&Delta; delta			&Lambda; lambida
+&Omega; omega			&phi; phi
+==========================================================================================================================
+&larr; seta pra esquerda	&rarr; seta pra direita
+&uarr; seta pra cima		&darr; seta pra baixo
+&harr; seta pra direita e esquerda
+

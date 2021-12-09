@@ -1,0 +1,16 @@
+AÇÕES
+mouseenter="variavel"(): Quando o mouse entra no elemento
+
+mousemove="variavel"(): Quando o mouse estiver movendo dentro do elemento
+
+mouseout="variavel"(): Quando o mouse de dentro do elemento se mover para fora dela
+
+mousedown="variavel"(): Quando ocorre o primeiro momento do click no elemento
+
+mouseup="variavel"(): Quando ocorre o segundo momento do click no elemento
+
+click="variavel()": Quando ocorrer o click no elemento
+-----------------------------------------------------------------------------------------------------
+
+
+
